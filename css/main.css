@@ -1,0 +1,35 @@
+* {
+  @font-face {
+    font-family: pop;
+    src: url("../fonts/Poppins-Light.ttf");
+  }
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.background4,
+.header {
+  background-color: darkblue;
+}
+.o {
+  height: 400px;
+  padding: 40px;
+  background: linear-gradient(131deg, #f4ede1 16.74%, #98b1c6 103.17%);
+  margin-bottom: 50px;
+}
+.explain {
+  margin-bottom: 50px;
+}
+.o > img {
+  height: 100%;
+  object-fit: cover;
+}
+a {
+  text-decoration: none;
+  color: rgb(2, 2, 35);
+}
+footer{
+  height: 50px;
+  
+}
